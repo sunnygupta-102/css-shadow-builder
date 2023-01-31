@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .shadow-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 0 0 #000;
+  }
+  
+  .slider {
+    width: 500px;
+  }
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Shadow Builder</h1>
+        <div class="shadow-box">
+            <p>Preview</p>
+        </div>
+        <br><br>
+        <div>
+            <label for="h-offset">Horizontal Offset:</label>
+            <input type="range" min="-100" max="100" value="0" class="slider" id="h-offset">
+            <span id="h-offset-value">0</span>
+        </div>
+        <br><br>
+        <div>
+            <label for="v-offset">Vertical Offset:</label>
+            <input type="range" min="-100" max="100" value="0" class="slider" id="v-offset">
+            <span id="v-offset-value">0</span>
+        </div>
+        <br><br>
+        <div>
+            <label for="blur">Blur:</label>
+            <input type="range" min="0" max="100" value="0" class="slider" id="blur">
+            <span id="blur-value">0</span>
+        </div>
+        <br><br>
+        <div>
+            <label for="spread">Spread:</label>
+            <input type="range" min="-100" max="100" value="0" class="slider" id="spread">
+            <span id="spread-value">0</span>
+        </div>
+        <br><br>
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" value="#000000" id="color">
+        </div>
+        <div id="css-code"></div>        
+    </div>
+    <script src="app/app.js"></script>
+
+</body>
+
+</html>
